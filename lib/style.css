@@ -1,14 +1,14 @@
 div#mainImageContainer {
     width: 100%;
-    height: 325px;
+    height: 265px;
     background-repeat: no-repeat !important;
-    background-size: cover !important;
+    background-size: 100% !important;
 }
 div#animationImageContainer {
     width: 185px;
     position: absolute;
-    top: 216px;
-    left: 232px;
+    top: 175px;
+    left: 180px;
 }
 div#animationImageContainer img:last-child {
     top: 9px;
@@ -31,16 +31,16 @@ div#animationImageContainer img:first-child {
 }
 
 div#animationImageContainer[type="modal"] {
-    top: 70px;
+    top: 50px;
     bottom: auto;
-    left: 180px;
-    width: 285px;
+    left: 150px;
+    width: 275px;
 }
 
 div#animationImageContainer[type="tooltip"] {
-    left: 500px;
-    top: 150px;
-    width: 120px;
+    left: 415px;
+    top: 122px;
+    width: 110px;
 }
 
 div#animationImageContainer[type="modal"] img:last-child {
@@ -50,7 +50,7 @@ div#animationImageContainer[type="modal"] img:last-child {
 
 div#animationImageContainer[type="tooltip"] img:last-child {
     top: 5px;
-    height: 43px;
+    height: 40px;
 }
 
 div#animationImageContainer.active-animation img:last-child {
@@ -67,7 +67,6 @@ div#animationImageContainer.active-animation.animate img {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-direction: alternate;
-    animation-delay: 1s;
     transition: transform 2s;
 }
 div#animationImageContainer.active-animation.animate img:last-child {
