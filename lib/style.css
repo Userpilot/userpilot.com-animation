@@ -1,15 +1,15 @@
-div#container {
-    position: relative;
-    width: 800px;
+div#mainImageContainer {
+    width: 100%;
+    height: 325px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 }
-
 div#animationImageContainer {
-    width: 200px;
+    width: 185px;
     position: absolute;
-    top: 64%;
-    left: 28%;
+    top: 216px;
+    left: 232px;
 }
-
 div#animationImageContainer img:last-child {
     top: 9px;
     left: -12px;
@@ -31,15 +31,15 @@ div#animationImageContainer img:first-child {
 }
 
 div#animationImageContainer[type="modal"] {
-    top: 19%;
+    top: 70px;
     bottom: auto;
-    left: 26%;
+    left: 180px;
     width: 285px;
 }
 
 div#animationImageContainer[type="tooltip"] {
-    left: 63%;
-    top: 44%;
+    left: 500px;
+    top: 150px;
     width: 120px;
 }
 
@@ -72,7 +72,7 @@ div#animationImageContainer.active-animation.animate img {
 }
 div#animationImageContainer.active-animation.animate img:last-child {
     transform: translateX(-3px);
-    opacity: 0.5;
+    opacity: 0.8;
     animation-name: animateLeft, animateOpacity;
 }
 
