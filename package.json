@@ -1,5 +1,5 @@
 {
-  "name": "animation",
+  "name": "userpilot-animation",
   "version": "1.0.0",
   "description": "Animate Userpilot site header image",
   "main": "lib/index.js",
